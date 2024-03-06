@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75b8f652-0360-4511-942e-2ad337522bfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/lira/eurekaserver/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/application/AvaliadorCreditoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/application/AvaliadorCreditoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/application/ex/DadosClientesNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/application/ex/ErroComunicacaoMicroservicesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/application/ex/ErroSolicitacaoCartaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/CartaoAprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/CartaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/DadosAvaliacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/DadosCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/ProtocoloSolicitacaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/domain/model/SituacaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/infra/clients/CartoesResourceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/infra/clients/ClienteResourseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/infra/mqueue/SolicitacaoEmissaoCartaoPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/domain/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/MsavaliadorcreditoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/com/lira/msavaliadorcredito/MsavaliadorcreditoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/MscartoesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/MscartoesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/application/CartaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/application/CartaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/application/CartoesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/com/lira/mscartoes/application/CartoesResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/application/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/application/ClienteResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/application/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/application/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/com/lira/msclientes/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscloudgateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mscloudgateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscloudgateway/src/main/java/com/lira/mscloudgateway/MscloudgatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscloudgateway/src/main/java/com/lira/mscloudgateway/MscloudgatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscloudgateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mscloudgateway/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/msclientes" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2dIWtR519X5Ti0iZW6R7OSMWTXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MsclientesApplication">
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lira.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lira.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsavaliadorcreditoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lira.msavaliadorcredito.MsavaliadorcreditoApplication" />
+      <module name="msavaliadorcredito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lira.msavaliadorcredito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lira.msclientes.MsclientesApplication" />
+      <module name="msclientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lira.msclientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscloudgatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lira.mscloudgateway.MscloudgatewayApplication" />
+      <module name="mscloudgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lira.mscloudgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MsclientesApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.MscloudgatewayApplication" />
+        <item itemvalue="Application.MsavaliadorcreditoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b8f652-0360-4511-942e-2ad337522bfa" name="Changes" comment="" />
+      <created>1709696293258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709696293258</updated>
+    </task>
+    <servers />
+  </component>
+</project>
